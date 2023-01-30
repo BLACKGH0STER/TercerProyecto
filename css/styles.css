@@ -75,3 +75,28 @@ header{
     margin-right: 65px;
     transition: all 300ms;
 }
+
+#menu {
+    float: right;
+    height: 70px;
+    background-color: transparent;
+}
+
+#menu ul li{
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+#menu ul li a:hover{
+    color: #37bcf9;
+    transform: scale(1.2, 1.2);
+}
